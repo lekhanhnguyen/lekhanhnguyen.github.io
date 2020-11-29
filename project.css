@@ -1,0 +1,132 @@
+li {float:left;display:inline-block;margin:10px;}
+.text{
+	padding:15px;
+}
+img {
+		height: 337px;
+		width: 550px;
+}
+a { color: gray;
+}
+nav  {
+		height:50px;
+		width:600px;
+}
+
+@media (min-width: 992px) {
+
+	.bgimg {
+			background-image: url("img/thanhphovinh2.jpg");
+			background-repeat: no-repeat;
+			height: 550px;
+			width: 1200px;
+			background-size:100% auto;
+			
+	}
+
+	.background-color {
+						background-color: #ffffb3
+	}
+	.background-color2 {
+						background-color:  #734d26
+	}
+	.background-color3 {
+						background-color: white;
+	}
+	.color {
+			 color: white;
+			 padding-top:100px;
+	}
+	.pd-top {
+			padding-top: 10px;
+	}
+	.font1 {
+			font-family: 'Roboto Slab', serif;
+	}
+    .line {
+	       display: none;
+	}
+	
+}
+
+
+
+		
+/*Hide in Other Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 768px) and (max-width: 992px) {
+    .bgimg {
+        background-image: none;
+    }
+	.color{ 
+	       color:black;
+		   padding-top:50px;
+		 
+	}
+	.background-color {
+		background-color:none;
+	}
+	.background-color2 {
+	    background-color: #3b4151;
+	}
+	.background-color3 {
+		background-color: #3b4151;
+	}
+	.color2 {
+		color: gray;
+	}	
+	.pd-top {
+			padding-top: 100px;
+	}
+	.font1 {
+	        font-family: 'Roboto', sans-serif;
+	}
+	.pd-top2 {
+			  padding-top: 70px;
+	}   
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 0px) and (max-width: 768px) {
+    .bgimg {
+        background-image: none;
+    }
+	.color{ 
+	       color:black;
+		   padding-top:50px;
+	}
+	.background-color {
+		background-color:none;
+	}
+	.background-color2 {
+		background-color: #3b4151;
+	}
+	.background-color3 {
+		background-color: #3b4151;
+	}
+	.color2 {
+		color:gray;
+	}
+	.pd-top {
+			padding-top: 100px;
+	}
+	.font1 {
+				font-family: 'Roboto', sans-serif;
+	}
+	.pd-top2 {
+			  padding-top: 70px;
+	}
+	img {
+		padding-top:70px;
+		height:auto;
+	}
+	body {
+		overflow: hidden;
+	}
+	.pd-rigth{
+		padding-right:70px;
+	}
+		
+}
